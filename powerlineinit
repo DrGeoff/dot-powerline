@@ -5,3 +5,13 @@ if [ -f `which powerline-daemon` ]; then
   . /usr/share/powerline/bash/powerline.sh
 fi
 
+# also remember to create the following file to get git branches and python env info
+#cat <<-'EOF' > ~/.config/powerline/config.json
+#{
+#    "ext": {
+#        "shell": {
+#            "theme": "default_leftonly"
+#        }
+#    }
+#}
+#EOF
